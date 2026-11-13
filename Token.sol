@@ -31,3 +31,4 @@ contract VulnerableToken {
         selfdestruct(payable(msg.sender));
     }
 }
+// Trigger re-scan
